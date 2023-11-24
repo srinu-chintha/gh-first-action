@@ -1,0 +1,11 @@
+name: clocking-workflow
+on: ‎workflow_dispatch
+jobs:
+  clocking-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: came-in
+        run: echo "came to office"
+      - name: came-out
+        run: echo "went out of ofc"
+        

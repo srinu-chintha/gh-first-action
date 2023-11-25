@@ -1,8 +1,0 @@
-name: Directions Workflow
-on: workflow_dispatch
-jobs:
-  direction-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: go-right
-        run: echo "Go Right"

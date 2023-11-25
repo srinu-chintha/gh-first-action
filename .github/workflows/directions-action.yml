@@ -6,7 +6,3 @@ jobs:
     steps:
       - name: go-right
         run: echo "Go Right"
-      - name: take-uturn
-        run: |
-          echo "Go stringht"
-          echo "Take Uturn"
